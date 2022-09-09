@@ -1,0 +1,41 @@
+@import url(./manual.scss);
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+
+
+  .vsn-layout-bg {
+    background-color: $color-layout-bg;
+  }
+
+  .vsn-table-header {
+    background-color: $color-table-header-bg;
+  }
+
+  .vsn-table-cell-updated {
+    background-color: var(--el-color-primary);
+    color: white;
+  }
+
+  .vsn-drag-ghost {
+    opacity: 0.3;
+    background: #c8ebfb;
+  }
+
+  $shadow: 0 0 6px $color-table-header-bg;
+  .vsn-box-shadow {
+    box-shadow: $shadow;
+  }
+  .dcomp-wrap {
+    cursor: pointer;
+    
+    &.selected, &:hover {
+      background-color: #f4f4f5;
+      box-shadow: 0 0 6px #f4f4f5;
+    }
+  }
+}

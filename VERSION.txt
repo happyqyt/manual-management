@@ -1,0 +1,6 @@
+VERSION
+SERVICE.NAME=vesync-management-manual
+
+SERVICE.VERSION=V1.0.0.0
+CHANGELOG
+【feat】项目初始化
